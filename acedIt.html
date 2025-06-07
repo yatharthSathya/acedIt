@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>acedIt - Smart Study Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 acedIt</h1>
+    <p>Your AI-powered study planner</p>
+
+    <form id="study-form">
+      <label for="subjects">Subjects (comma-separated):</label>
+      <input type="text" id="subjects" placeholder="e.g. Math, Biology, History" required />
+
+      <label for="deadlines">Deadlines/Test Dates (same order, YYYY-MM-DD):</label>
+      <input type="text" id="deadlines" placeholder="e.g. 2025-06-10,2025-06-12,2025-06-15" required />
+
+      <label for="hours">Available study hours per day:</label>
+      <input type="number" id="hours" min="1" max="24" value="3" required />
+
+      <button type="submit">Generate Plan</button>
+    </form>
+
+    <div id="output" class="output"></div>
+  </div>
+
+  <script src="plans.js"></script>
+</body>
+</html>
