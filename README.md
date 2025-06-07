@@ -66,6 +66,10 @@ No build step needed—just open `index.html` in your browser.
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
+**Elevator Pitch**
+
+AI-powered study planner that creates personalized, deadline-driven weekly schedules for high school students, optimizing study time and balance.
+
 ## License
 
 [MIT](LICENSE)
